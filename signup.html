@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>MI TIENDA</title>
+        <link rel="icon" type="image/ico"  href="icons/logo.png"/>
+        <style>
+          input:valid{background: green
+          }
+          input:invalid{background: red
+          }
+        </style>
+    </head>
+    <body bgcolor="#DEDEFA">
+        
+      <form name="form1" action="#" method="POST">
+       <CENter>FORMULARIO DE REGISTRO</CENter> <br>
+      <center>NOMBRE:    <font color="red"><b>*</b></font>  <input type="text"  name="nombre" pattern="[A-Z]{3,15}" litle="solo se aceptan MAYUSCULAS"  required></center><br>
+      <center>APELLIDOS: <font color="red"><b>*</b></font> <input type="text"  name="apellidos" pattern="[A-Z]{3,15}" litle="solo se aceptan MAYUSCULAS" required></center><br>
+      <center>Nro identificacion: <font color="red"><b>*</b></font> <input type="text"  name="cedula" pattern="[0-9]{7,12}" litle="solo se aceptan numeros"required  ></center><br>
+      <center>Genero: <input type="radio" name="genero" value="2"> Masculino   <input type="radio" name="genero" value="2" > Femenino </center><br>
+      <center>Telefono:  <input type="text"  name="cedula" pattern="[0-9]" litle="solo se aceptan numeros"  ></center><br>
+      <center>Celular:<font color="red"><b>*</b></font>  <input type="text"  name="cedula" pattern="[0-9]" litle="solo se aceptan numeros" required ></center><br>
+      <center>Departamento nac: <font color="red"><b>*</b></font> 
+        <select name="dpto" required>
+          <option value="1">Nariño</option> 
+          <option value="2">Cundinamarca</option> 
+          <option value="3">Valle</option>
+          <option value="4">Antioquia</option> 
+          <option value="5">Cordoba</option> 
+          <option value="6">Atlantico</option> 
+          <option value="7">Meta</option>
+          <option value="8">Putumayo</option>s
+          <option value="9">Cauca</option>
+          <option value="10">Cesar</option>
+      </select><br><br>
+      <center>Ciudad de nac: <font color="red"><b>*</b></font> 
+      <select name="dpto" required>
+        <option value="1">pasto</option> 
+        <option value="2">Cali</option> 
+        <option value="3">Bogota</option>
+        <option value="4">Medellin</option> 
+        <option value="5">Barranquilla</option> 
+        <option value="6">Cartagena</option> 
+        <option value="7">Ibague</option>
+        <option value="8">Mocoa</option>s
+        <option value="9">Popayan</option>
+        <option value="10">Pereira</option>
+      </select><br><br>
+    </center><br>
+      <center>Correo electronico: <font color="red"><b>*</b></font> <input type="email"  name="email"  ></center><br>
+      <center>Contraseña:  <font color="red"><b>*</b></font><input type="text"  name="contraseña"  required></center><br>
+      <center>Confirmar contraseña: <font color="red"><b>*</b></font> <input type="text"  name="confcon" ></center><br>
+      <center>Foto: <input type="file"  enctype="multipart/form-data" name="adjunto" accept=".pdf,.jpg,.png" multiple></center> <center><br>
+      <center>Tipo de indentificacion:<font color="red" ><b>*</b></font> 
+        <select name="dpto" required>
+          <option value="1">Cedula de ciudadania</option> 
+          <option value="2">Tarjeta de identidad</option> 
+          <option value="3">Registro civil</option>
+          <option value="4">pasaporte</option> 
+          <option value="5">otro</option> 
+          
+        </select><br><br>
+      </center><br>
+       <center><input type="submit" value="Registrarme"></center>
+
+
+      </form>
+      
+    </body>
+</html>
