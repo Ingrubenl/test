@@ -10,7 +10,7 @@
     if($conn->connect_error){
         die("connection failed: ".$conn->connect_error);
     }else{
-          echo "i am connected to tienda";      
+         // echo "i am connected to tienda";      
         }
 
 
